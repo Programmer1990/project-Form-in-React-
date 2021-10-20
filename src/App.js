@@ -9,7 +9,7 @@ function App(){
  function getFormData(e)
  {
    console.warn(name,tnc,interest)
-   e.preventDefault()
+   e.preventDefault() // e stands for event, preventDefault stops form to submit.
  }
       return(
         <div className="App">
